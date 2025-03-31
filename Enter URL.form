@@ -1,0 +1,36 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e7bcff8"
+  },
+  "schemaVersion": 18,
+  "id": "Form_0npbghz",
+  "components": [
+    {
+      "text": "# URL Generation with RPA",
+      "type": "text",
+      "layout": {
+        "row": "Row_0up5oai",
+        "columns": null
+      },
+      "id": "Field_1r2hhl2"
+    },
+    {
+      "label": "Enter the URL",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15lhup5",
+        "columns": null
+      },
+      "id": "Field_0m8c3oz",
+      "key": "url",
+      "validate": {
+        "required": true,
+        "pattern": "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"
+      }
+    }
+  ],
+  "type": "default"
+}

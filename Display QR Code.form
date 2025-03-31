@@ -1,0 +1,23 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "e7bcff8"
+  },
+  "schemaVersion": 18,
+  "id": "display-qr-code-0h9wos1",
+  "components": [
+    {
+      "label": "Doc",
+      "type": "documentPreview",
+      "layout": {
+        "row": "Row_1mld3bw",
+        "columns": null
+      },
+      "id": "Field_1jahnl9",
+      "dataSource": "=qrCode"
+    }
+  ],
+  "type": "default"
+}
