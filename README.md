@@ -10,6 +10,10 @@ The project starts with a form where you can input a URL (e.g., `https://camunda
 
 ## Components
 
+<video width="420" height="240" controls>
+  <source src="./img/RPAElements.mp4" type="video/mp4">
+</video>
+
 ### Tools to Build and Run
 1. **Camunda Desktop Modeler**: Used to build the RPA script. [Download the Camunda Modeler](https://camunda.com/download/modeler/).
 2. **RPA Worker**: Used to run and test the RPA script. [Download and install the RPA Worker](https://github.com/camunda/rpa-worker/releases).
